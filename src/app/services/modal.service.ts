@@ -20,7 +20,7 @@ export class ModalService {
     });
   }
 
-  isModelOpen(id: string): boolean {
+  isModalOpen(id: string): boolean {
     return !!this.modals.find((element) => element.id === id)?.visible;
   }
 
